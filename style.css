@@ -19,12 +19,9 @@ body{
    
 }
 .boxholder{
-    height:200px;
+    height:300px;
     width:100%;
-    display:flex;
-    flex-wrap:wrap;
-   
-
+    margin-top: 50px;
 }
 .box{
     width:50px;
@@ -33,6 +30,7 @@ body{
     
 }
 .ball{
+    position: absolute;
     width:30px;
     height:30px;
     background:rgb(236, 87, 204);
@@ -43,4 +41,12 @@ body{
 }
 #myAudio{
     display:none;
+}
+.playingpad{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 800px;
+    left: 0px;
 }
